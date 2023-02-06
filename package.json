@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_resto",
+  "version": "1.0.0",
+  "description": "Menu restaurant",
+  "main": "appresto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon appresto.js"
+  },
+  "author": "Shiroe Wolfus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
