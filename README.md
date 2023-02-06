@@ -24,10 +24,10 @@ On peut insérer la propriété statusCode pour une réponse fausse avec le code
 On y spécificie le port d'écoute (ici 3000) pour renvoyer les informations de l'app
 
 5/ajout du chemin de l'app.js
-Dans le fichier package.json à la balise "scripts":{... on insère "start":"app.js"} pour initialiser la lecture du document requis
+Dans le fichier package.json à la balise "scripts":{... on insère "start":"nodemon app.js"} pour initialiser la lecture du document requis
 
 6/ npm start
-Lance la relation du serveur qui nous permettra via l'extension Thunder Client d'afficher avec l'url http://localhost:3000/menu de lire la base de donnée
+Lance la relation du serveur qui nous permettra via l'extension Thunder Client d'afficher via l'url http://localhost:3000/menu la base de donnée
 
 7/ Thunder Client
 Avec l'extension qu'on installe sur VSCode, on permet la relation serveur client pour afficher les données stockés dans le JSON
