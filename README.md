@@ -19,6 +19,7 @@ On installe nodemon de cette façon pour ne pas surcharger l'application
 4/création de l'app .js
 On enregistre les variables constantes express et fs qui renvoie au librairies requises pour fonctionner installées précédemment. 
 On utilise GET pour lire avec le chemin du fichier les données qu'il contient.
+La lecture de la chaîne de caractère sera transformé en objet JSON (JavaScriptObjectAnnotation) avec la fonction JSON.Parse(). 
 On peut insérer la propriété statusCode pour une réponse fausse avec le code (500) si un problème de lecture survient ou définir la propriété statusCode à (200) pour indiquer une réponse réussie
 On y spécificie le port d'écoute (ici 3000) pour renvoyer les informations de l'app
 
@@ -26,7 +27,7 @@ On y spécificie le port d'écoute (ici 3000) pour renvoyer les informations de 
 Dans le fichier package.json à la balise "scripts":{... on insère "start":"app.js"} pour initialiser la lecture du document requis
 
 6/ npm start
-Lance la simulation du serveur qui nous permettra via l'extension Thunder Client d'afficher avec l'url http://localhost:3000/menu de lire la base de donnée construite dans le JSON
+Lance la relation du serveur qui nous permettra via l'extension Thunder Client d'afficher avec l'url http://localhost:3000/menu de lire la base de donnée
 
 7/ Thunder Client
-Avec l'extension qu'on installe sur VSCode, on simule la relation serveur client pour afficher les données stockés dans le JSON
+Avec l'extension qu'on installe sur VSCode, on permet la relation serveur client pour afficher les données stockés dans le JSON
