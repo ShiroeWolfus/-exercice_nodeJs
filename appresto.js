@@ -14,7 +14,7 @@ app.get('/menu', (requet, response)=> {
                 message: "Une erreur est survenue lors de la lecture des données du menu",
                 error: err
             })
-            //si la lecture s'effectue, il atteint les données et les affiche
+            //si la lecture s'effectue, il atteint les données et les affiche en objet avec la fonction JSON.parse
         } else{
             response.status(200).json(JSON.parse(menu));
         }
