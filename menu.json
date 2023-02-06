@@ -1,15 +1,29 @@
 {
     "menu" : [
-        {"id": 1, "plat": "croquettes de poisson chat", "prix": "12€"},
-        {"id": 2, "plat": "filet de pimp", "prix": "8€"},
-        {"id": 3, "plat": "soufflé braisé", "prix": "3€"},
-        {"id": 4, "plat": "salade décomposée", "prix": "17€"},
-        {"id": 5, "plat": "agneau déconfiné", "prix": "23€"},
-        {"id": 6, "plat": "entrecôte dégraissée", "prix": "27€"},
-        {"id": 7, "plat": "pelardon désseché", "prix": "5€"},
-        {"id": 8, "plat": "copeaux de sagran vanillés", "prix": "9€"},
-        {"id": 9, "plat": "café mouillette", "prix": "1€"},
-        {"id": 10, "plat": "coca cola aux glaçons", "prix": "3€"},
-        {"id": 11, "plat": "smoothie champignons/radis", "prix": "8€"}
+        {
+            "Entrées":[
+            
+                 {"id": 1, "plat": "croquettes de poisson chat", "prix": "12€"},
+                 {"id": 2, "plat": "filet de pimp", "prix": "8€"},
+                 {"id": 3, "plat": "soufflé braisé", "prix": "3€"}
+             
+             ],   
+            "Plats" :[
+
+                {"id": 4, "plat": "salade décomposée", "prix": "17€"},
+                {"id": 5, "plat": "agneau déconfiné", "prix": "23€"},
+                {"id": 6, "plat": "entrecôte dégraissée", "prix": "27€"},
+                {"id": 7, "plat": "pelardon désseché", "prix": "5€"}
+            ],
+            "Desserts": [
+                {"id": 8, "plat": "copeaux de sagran vanillés", "prix": "9€"},
+                {"id": 9, "plat": "café mouillette", "prix": "1€"}
+            ],
+            "Boissons" :[  
+                
+                {"id": 10, "plat": "coca cola aux glaçons", "prix": "3€"},
+                {"id": 11, "plat": "smoothie champignons/radis", "prix": "8€"}
+            ]
+        }
     ]
 }
