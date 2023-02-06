@@ -1,4 +1,4 @@
-# Création d'une APP avec NodeJS
+# Création d'une API avec NodeJS
 
 Après avoir installé NodeJS en prenant la version LTS (dernière version stable), on créer un répertoire qui va héberger l'application et qui sera le lieu de travail
 
